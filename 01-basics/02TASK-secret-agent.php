@@ -16,6 +16,18 @@
         // Spare time? Style it with CSS!
 	    // ===========================================================
         
+        $secretProfile = 'Secret Agent profile'
+        $naam = 'secret agent Dylan';
+        $age = 45;
+        $favouriteGadget = 'sniper';
+        $MissionStatus = true;
+
+        echo "<h1>" . $secretProfile . "</H1>";
+        echo "<p>" . $naam . "</p>";
+        echo "<p>" . $age . "</p>";
+        echo "<p>" . $favouriteGadget . "</p>";
+        echo "<p>" . $MissionStatus . "</p>";
+// ik weet niet of ik in 1 echo meerdere variabelen kan zetten met puntje, want ik kan dat niet zien 
 
 
 		// Time: 3-10 minutes

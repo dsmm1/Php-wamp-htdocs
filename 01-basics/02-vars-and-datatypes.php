@@ -30,6 +30,7 @@
         //========== Array uitlezen
         echo $indexedArray[1];
         echo $keyedArray['aantal'];
+        echo "<h1>" . $var . "</h1>";
 
         echo "<pre>"; // proper maken
         print_r($keyedArray);
