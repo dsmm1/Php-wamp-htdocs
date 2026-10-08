@@ -11,21 +11,32 @@
     
 	<?php 
         //========== Arithmetic operators
+		// + - / *
 		
 
-
+		// $c = $a + $b;
+		// $c = $a +4;
+		// echo $a +4;
 
 		//========== Increment and decrement 
 		
+		// $a--; met 1 verlagen 
 
+		// $b-- met 1 verhogen
 
 
 		//========== Assignment (and string) operators
 		
-
+		$d = 'iets' ; //: = is de assigment operator
+		$d .= 'nog iets'; // dit voegt een string toe door dat punt voor gelijk aan teknen dus het print iets en dan nog iets erbij 
+		
+		echo $d;
 
 
 		//========== Arithmetic assignment operators
+		$basisGetal = 10;
+
+		$basisGetal += 10;
 		
 
 

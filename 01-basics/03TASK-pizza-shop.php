@@ -16,6 +16,38 @@
 	// 3. Echo out the results in a user-friendly way.
 	// ===========================================================
 
+// price
+	$pizzaPrice = 10;
+	$toppingPrice = 5;
+	$deliveryFee = 10;
+//orders
+	$numberOfPizzaOrdered = 5;
+	$NumberToppingsPizza = 15;
+	$NumberPeopleAtTable = 5;
+
+// tekst
+$tekst1 = "Rekening Pizza";
+
+
+	//-----------total price berekening-----------
+	$TotalPrice = 0;
+	$TotalPrice = $numberOfPizzaOrdered * $pizzaPrice + $toppingPrice + $deliveryFee;
+	//----------- total slices berekening ----------
+	$totalSlices = 0;
+	$totalSlices = $NumberPeopleAtTable/8;
+
+	// --------- echo friendly way -----------
+
+	echo "<h1>" .$tekst1. "</h1>";
+	
+	echo "<p> Dit is de totale prijs pizza's "   .$TotalPrice. "euro </p>";
+	echo "<p> De total slides voor elk persoon "  . $totalSlices . "</p>";
+
+
+
+
+
+
 
 	
 	// Time: ?
