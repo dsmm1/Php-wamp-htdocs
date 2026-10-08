@@ -12,14 +12,23 @@
 	<?php 
 		//========== 1. Make a multidimensional array
 
+        $indexedArray =  [
+            ['string1', 'string2'],
+            ['string3','string4'],
+            ['string5' , 'string6']
+        ];
+
 
 
         //========== 2. Visualise some data from index 1 of the array you just created (don't just print)
-
+        
+        echo $indexedArray[1];
+        print_r($indexedArray[1]);
 
 
         //========== 3. Add more data to the existing array
 
+        $indexedArray[1] = 'string7';
 
 
 		// Time: 5-15 minutes
