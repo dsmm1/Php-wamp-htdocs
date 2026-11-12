@@ -11,6 +11,17 @@
     
 	<?php 
 		//========== For loops
+        for ($i=0; $i < ; $i++) { 
+
+
+
+            if ($i == 0) {
+                //echo "dit isé .  <br>
+            }else{
+
+            }
+        echo "Dit is " . $i + 1 . "keer ";
+        }
         
 
 

@@ -11,7 +11,13 @@
     
 	<?php 
         //========== While loops
+    $a = 0;
+        while ($a <= 10) {
+            # code...
+        }
         
+        $a++;
+        //break
 
         
 	?>

@@ -11,12 +11,19 @@
     
 	<?php 
         //========== Loop through indexed array with foreach
-        
+        $kleuren = array('blauw','rood','geel','zwart');
 
+        
+        foreach ($kleuren as $kleur ) {
+            echo "$kleur <br>";
+          }
 
 
         //========== Loop through keyed array with foreach
         
+        foreach ($kleuren as $key => $kleur) {
+            echo "$key : $kleur <br>";
+          }
 
 
 	?>
