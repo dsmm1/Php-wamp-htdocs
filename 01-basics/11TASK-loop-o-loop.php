@@ -17,9 +17,39 @@
 		// In elke ronde gebruik je een foreach loop om te echoën welke bezoekers in de attractie zitten:
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
 		// ===========================================================
-		
+	
+		$bezoekers = array('Aaron','Elize','Dylan','Jabrane','Amo','Bryian');
+
+		for ($i=0; $i <= 3 ; $i++) { 
+
+        echo "Rit " . $i + 1 . " vertrekt! <br> " ;
+
+        
+
+		foreach ($bezoekers as $persoon) {
+            $funlevel = rand(1,6);
+
+			if (funlevel == 1) {
+				$betenis = "is doodsbang!";
+			}elseif (funlevel == 2) {
+				$betenis = "is superongezond!";
+			}elseif (funlevel == 3) {
+				$betenis = "is gek!";
+			}elseif (funlevel == 4) {
+				$betenis = "is doodsblij!";
+			}elseif (funlevel == 5) {
+				$betenis = "is blij!";
+			}else{
+				$betenis = "is bang!";
+			}
+			echo "$persoon $betekenis <br>"
+          }
+		}
 
 
+		  
+
+		  
 
 		
 
